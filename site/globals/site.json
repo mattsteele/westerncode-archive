@@ -1,0 +1,20 @@
+{
+    "name": "Western Code",
+    "url": "https://westerncode.com",
+    "author": {
+        "name": "Matt Steele",
+        "email": "matt@mattsteele.dev",
+        "handle": "@mattsteeele",
+        "avatar": "/images/blog/author.jpg"
+    },
+    "images": {
+        "favicon": "/images/favicons/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com/joe_dyer1",
+        "linkedin": "https://www.linkedin.com"
+    }
+}
