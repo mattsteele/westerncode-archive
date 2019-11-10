@@ -1,12 +1,12 @@
-<nav id="nav" class="nav flex">
+<nav id="nav" class="nav flex-l">
 
     <ul class="menu flex flex-col md:flex-row items-center list-reset text-base">
 
         {% for item in navigation.main %}
 
-        <li class="level-1 mb-4 md:mr-4 md:mb-0">
+        <li class="level-1 mb-4 md:mr-10 md:mb-0 uppercase text-lg">
 
-            <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-pink-500 {% if page.url == item.url %}active text-pink-500{% endif %}
+            <a href="{{ item.url | safe }}" class="link font-bold text-blue-100 hover:text-red-100
             "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
 
         </li>
@@ -14,7 +14,7 @@
         {% endfor %}
 
         <li>
-            <a class="inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-pink-500 hover:bg-white hover:text-pink-500" href="/" target="_blank" rel="noopener">Button</a>
+            <a class="inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-blue-100 hover:bg-red-100 hover:text-white uppercase text-lg" href="/" target="_blank" rel="noopener">Let's Talk</a>
         </li>
 
     </ul>

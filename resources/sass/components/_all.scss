@@ -4,3 +4,14 @@
 @import 'header';
 @import 'buttons';
 @import 'article-card';
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 80vh;
+}
