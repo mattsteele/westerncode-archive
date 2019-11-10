@@ -1,9 +1,23 @@
+:root {
+	--body: #f7f7f9;
 
+	--blue-one: #1e2e3e;
+	--blue-two: #507796;
+	--blue-three: #2a94c8;
+	--blue-four: #1e2e3e;
+
+	--red-one: #b33d40;
+	--red-two: #d1625b;
+
+	--gray-one: #e0e0e0;
+	--gray-two: #bdc3c7;
+}
 //==========  Import all component partials ==========//
 
 @import 'header';
 @import 'buttons';
 @import 'article-card';
+@import 'footer';
 
 .hero {
     background-image: url(../images/hero.jpg);
@@ -11,7 +25,18 @@
     background-position: center;
     background-size: cover;
     background-color: transparent;
-    margin-right: 60px;
-    margin-left: 60px;
+    // margin-right: 60px;
+    // margin-left: 60px;
     height: 80vh;
+}
+
+.header-span{
+    background: rgba(255,255,255,.6);
+    padding: 3.5px 10px;
+    @media only screen and (max-width: 900px) {
+        padding: 2.5px 10px;
+    }
+    @media only screen and (max-width: 760px) {
+        padding: 2.3px 10px;
+    }
 }
