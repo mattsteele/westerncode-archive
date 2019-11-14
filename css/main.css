@@ -675,6 +675,10 @@ h1, h2, h3, h4, h5, h6 {
   --gray-two: #bdc3c7;
 }
 
+.logo-link:hover img {
+  opacity: 80%;
+}
+
 .article-card .featured-image-link:hover .featured-image {
   transform: scale(1.1);
 }
@@ -839,8 +843,52 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+body {
+  -webkit-animation: fadein .8s;
+  -moz-animation: fadein .8s;
+  -ms-animation: fadein .8s;
+  -o-animation: fadein .8s;
+  animation: fadein .8s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  animation: fadeInUp 0.6s ease;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+}
+
 .hero {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/hero-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -850,7 +898,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-span {
   background: rgba(255, 255, 255, 0.6);
-  padding: 3.5px 10px;
+  padding: 2px 10px;
 }
 
 @media only screen and (max-width: 900px) {

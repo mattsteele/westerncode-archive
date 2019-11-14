@@ -448,6 +448,7 @@ module.exports = {
     fontStyle: ['responsive'],
     fontWeight: ['responsive', 'hover', 'focus'],
     height: ['responsive'],
+    opacity: ['responsive', 'hover', 'focus'],
     inset: ['responsive'],
     justifyContent: ['responsive'],
     letterSpacing: ['responsive'],

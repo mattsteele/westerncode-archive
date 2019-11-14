@@ -18,9 +18,10 @@
 @import 'buttons';
 @import 'article-card';
 @import 'footer';
+@import 'transitions';
 
 .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,7 +33,7 @@
 
 .header-span{
     background: rgba(255,255,255,.6);
-    padding: 3.5px 10px;
+    padding: 2px 10px;
     @media only screen and (max-width: 900px) {
         padding: 2.5px 10px;
     }
