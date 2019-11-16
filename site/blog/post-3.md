@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: Why running is incredible medicine for your brain
 date: 2019-11-15
 featured_image: /images/blog/post-3.jpg

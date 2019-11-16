@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: 7 steps to more productive meetings
 date: 2018-09-30
 featured_image: /images/blog/post-1.jpg
