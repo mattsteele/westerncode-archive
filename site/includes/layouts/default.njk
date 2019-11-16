@@ -23,6 +23,16 @@
     {# social meta tags and assets like fonts, favicons etc, should be last #}
     {% include "components/social-meta.njk" %}
     <link rel="icon" type="image/png" href="{{ site.images.favicon }}">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34445503-11"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-34445503-11');
+    </script>
+
 </head>
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="min-h-full font-sans text-lg text-purple-darkest leading-normal">
