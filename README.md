@@ -4,7 +4,6 @@
 
 A site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](https://skeleventy.netlify.com/)
 
-
 ## To Start:
 
 ### 1. Clone this repository:
@@ -12,7 +11,6 @@ A site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](h
 ```
 git clone https://github.com/mattsteele/westerncode.git
 ```
-
 
 ### 2. Navigate to the directory:
 
@@ -26,9 +24,8 @@ cd westerncode
 npm install
 ```
 
-
 ### 5. Build, serve & watch:
 
 ```
-npm run serve
+npm run dev
 ```

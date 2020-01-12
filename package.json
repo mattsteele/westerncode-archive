@@ -13,7 +13,7 @@
 	"author": "Matt Steele",
 	"license": "MIT",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.8.3",
+		"@11ty/eleventy": "^0.10.0",
 		"@babel/core": "^7.7.7",
 		"@babel/preset-env": "^7.7.7",
 		"@fullhuman/postcss-purgecss": "^1.2.0",
@@ -24,10 +24,13 @@
 		"gulp-notify": "^3.2.0",
 		"gulp-plumber": "^1.2.1",
 		"gulp-postcss": "^8.0.0",
-		"gulp-rename": "^1.4.0",
+		"gulp-rename": "^2.0.0",
 		"gulp-sass": "^4.0.2",
 		"gulp-uglify": "^3.0.2",
 		"html-minifier": "^4.0.0",
 		"tailwindcss": "^1.1.4"
+	},
+	"dependencies": {
+		"npm-check-updates": "^4.0.1"
 	}
 }
