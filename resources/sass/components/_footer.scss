@@ -1,142 +1,142 @@
 .site-footer {
-	text-align: center;
-	text-transform: uppercase;
-	a {
-		color: white;
-		text-decoration: none;
-		-webkit-font-smoothing: antialiased;
-	}
+  text-align: center;
+  text-transform: uppercase;
+  a {
+    color: white;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 .footer-one {
-	background-color: theme('colors.red.200');
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	a {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	&:hover a {
-		color: theme('colors.blue.300');
-	}
+  background-color: theme('colors.red.200');
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:hover a {
+    color: theme('colors.blue.300');
+  }
 }
 
 .footer-two {
-	background-color: theme('colors.blue.100');
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	a {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	&:hover a {
-		color: theme('colors.blue.300');
-	}
+  background-color: theme('colors.blue.100');
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:hover a {
+    color: theme('colors.blue.300');
+  }
 }
 
 .footer-three {
-	background-color: theme('colors.blue.100');
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	a {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	&:hover a {
-		color: theme('colors.blue.300');
-	}
+  background-color: theme('colors.blue.100');
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:hover a {
+    color: theme('colors.blue.300');
+  }
 }
 
 .footer-four {
-	background-color: theme('colors.blue.300');
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	svg {
-		fill: white;
-	}
-	a {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		&:hover {
-			svg {
-				fill: theme('colors.blue.100');
-			}
-		}
-	}
+  background-color: theme('colors.blue.300');
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  svg {
+    fill: white;
+  }
+  a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:hover {
+      svg {
+        fill: theme('colors.blue.100');
+      }
+    }
+  }
 }
 
 .footer-five {
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	a {
-		color: black;
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	&:hover a {
-		color: theme('colors.blue.200');
-	}
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  a {
+    color: black;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:hover a {
+    color: theme('colors.blue.200');
+  }
 }
 
 .footer-six {
-	background-color: theme('colors.gray.100');
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-	a {
-		color: theme('colors.red.200');
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	&:hover {
-		cursor: pointer;
-	}
-	&:hover a {
-		color: theme('colors.blue.200');
-	}
+  background-color: theme('colors.gray.100');
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  a {
+    color: theme('colors.red.200');
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:hover a {
+    color: theme('colors.blue.200');
+  }
 }
 
 .footer-underline-light {
-	position: relative;
+  position: relative;
 }
 
 .footer-underline-light:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: -4px;
-	width: 0;
-	height: 4px;
-	background-color: white;
-	content: "";
-	transition: width 0.4s;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 4px;
+  background-color: white;
+  content: '';
+  transition: width 0.4s;
 }
 
 .footer-underline-light:hover:after {
-	width: 100%;
+  width: 100%;
 }
 
 .footer-underline-dark {
-	position: relative;
+  position: relative;
 }
 
 .footer-underline-dark:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: -4px;
-	width: 0;
-	height: 4px;
-	background-color: theme('colors.blue.200');
-	content: "";
-	transition: width 0.4s;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 4px;
+  background-color: theme('colors.blue.200');
+  content: '';
+  transition: width 0.4s;
 }
 
 .footer-underline-dark:hover:after {
-	width: 100%;
+  width: 100%;
 }

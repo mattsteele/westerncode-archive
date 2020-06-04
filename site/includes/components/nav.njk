@@ -5,10 +5,7 @@
         {% for item in navigation.main %}
 
         <li class="level-1 mb-4 md:mr-10 md:mb-0 uppercase text-lg">
-
-            <a href="{{ item.url | safe }}" class="link font-bold text-blue-300 hover:text-red-300 p-4
-            "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-
+            <a href="{{ item.url | safe }}" class="bg-red-200 hover:bg-red-300 text-white hover:text-white font-bold py-4 px-6 rounded"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
         </li>
 
         {% endfor %}
