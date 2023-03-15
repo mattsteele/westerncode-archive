@@ -14,8 +14,10 @@
         "statusBarItem.hoverBackground": "#be36a2",
         "statusBar.foreground": "#e7e7e7",
         "activityBar.activeBackground": "#be36a2",
-        "statusBar.border": "#962b80",
-        "titleBar.border": "#962b80"
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#be36a2",
+        "statusBarItem.remoteBackground": "#962b80",
+        "statusBarItem.remoteForeground": "#e7e7e7"
     },
     "peacock.color": "#962b80"
 }
