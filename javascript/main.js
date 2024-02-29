@@ -1,4 +1,5 @@
 // Config
+
 // Selectors
 // store selectors for reference so we only call them once
 var $body = document.querySelector('body');
@@ -13,16 +14,19 @@ var
 * @return 		{bool}
 *
 */
+
 page = function page(name) {
   if (!name) {
     return $body.getAttribute('id');
   }
-
   return $body.getAttribute('id') == name;
 };
+
 // add a class of 'intro' to the first paragraph
 // do this on every page apart from the blog page
 // if ( !page('blog') )
 // {
+
 //     document.querySelector('.content > p').classList.add('intro')
+
 // }

@@ -6,19 +6,23 @@ A site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](h
 
 ## To Start:
 
-### 1. Clone this repository:
+### 1. Switch to NPM 10:
+
+`$ nvm use 10`
+
+### 2. Clone this repository:
 
 ```
 git clone https://github.com/mattsteele/westerncode.git
 ```
 
-### 2. Navigate to the directory:
+### 3. Navigate to the directory:
 
 ```
 cd westerncode
 ```
 
-### 3. Install dependencies:
+### 4. Install dependencies:
 
 ```
 npm install
