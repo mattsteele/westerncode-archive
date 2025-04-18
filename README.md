@@ -1,6 +1,6 @@
 # Western Code - Archive
 
-An ols, archived site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](https://skeleventy.netlify.com/)
+An old, archived site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](https://skeleventy.netlify.com/)
 
 ## To Start:
 
