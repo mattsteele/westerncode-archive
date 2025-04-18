@@ -1,7 +1,5 @@
 # Western Code - Archive
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/914fbc5e-8ac8-4ab4-bf4a-383de2e04384/deploy-status)](https://app.netlify.com/sites/nervous-tereshkova-51eccf/deploys)
-
 An ols, archived site built using [11ty](https://github.com/11ty/eleventy) &amp; [skeleventy](https://skeleventy.netlify.com/)
 
 ## To Start:
